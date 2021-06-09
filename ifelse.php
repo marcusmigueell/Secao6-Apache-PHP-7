@@ -61,6 +61,12 @@
                     //será executado se a condicao1 for false e condição2 for false
                 }
 
+            -------------------------------------------------------------------------------------------------------
+
+                Operador Ternário
+
+                condicao ? // será retornado se true : // será retornado se false
+
         */
 
     ?>
