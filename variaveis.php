@@ -11,6 +11,14 @@
 
     <?php
 
+        define('BD_URL', 'endereco_bd_dev'); //declaração de variaveis constantes
+        define('BD_USUARIO', 'usuario_dev');
+        define('BD_SENHA', 'senha_dev');
+
+        echo BD_URL . '<br>'; // o ponto (.) é usado para concatenação
+        echo BD_USUARIO . '<br>';
+        echo BD_SENHA . '<br>';
+
         //string = cadeia de caracteres
         $nome = 'Marcus Miguel';
 
@@ -22,6 +30,12 @@
 
         //boolean = aceita valores true ou false, verdadeiro e falso respectivamente => true = 1 e false = vazio
         $fumante = false;
+
+        if($fumante) {
+            $fumante = 'Sim';
+        } else {
+            $fumante = 'Não';
+        }
 
     ?>
 
