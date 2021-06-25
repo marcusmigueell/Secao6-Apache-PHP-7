@@ -1,3 +1,2 @@
-notebook nao liga # Hardware # Ao ligar o notebook o mesmo não liga.
-Erro de impressão # Impressora # Erro ao tentar imprimir um documento.
-Telefone não funciona # Rede # Meu telefone está com problemas de conectividade.
+1 # Chamado José # Hardware # Teste de chamado do José.
+4 # Chamado Maria # Rede # Teste de chamado do Maria.
