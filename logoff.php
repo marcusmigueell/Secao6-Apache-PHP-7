@@ -15,6 +15,4 @@
     session_destroy(); //será destruída e após isso forçar um redirecionamento
     header('Location: index.php');
 
-
-
 ?>
