@@ -40,15 +40,33 @@
 
           <div class="card-body"> <!-- Inicio Card-Corpo -->
 
-            <form> <!-- Inicio Formulário Login -->
+            <form action="../Secao6-Apache-PHP-MySQL/valida_login.php" method="post"> <!-- Inicio Formulário Login -->
 
               <div class="form-group">
-                <input type="email" class="form-control" placeholder="E-mail">
+                <input name="email" type="email" class="form-control" placeholder="E-mail">
               </div>
 
               <div class="form-group">
-                <input type="password" class="form-control" placeholder="Senha">
+                <input name="senha" type="password" class="form-control" placeholder="Senha">
               </div>
+
+              <!-- Inicio será executado caso o usuário preencha algum campo errado -->
+              <? if(isset($_GET['login']) && $_GET['login'] == 'erro') { ?> 
+
+                <div class="text-danger">
+                  Usuário ou senha inválido(s)
+                </div>
+
+              <? } ?> <!-- Fim será executado caso o usuário preencha algum campo errado -->
+
+              <!-- Inicio será executado caso o usuário preencha algum campo errado -->
+              <? if(isset($_GET['login']) && $_GET['login'] == 'erro2') { ?> 
+
+                <div class="text-danger">
+                  Por favor, faça login antes de acessar as páginas protegidas
+                </div>
+
+              <? } ?> <!-- Fim será executado caso o usuário preencha algum campo errado -->
 
               <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
 

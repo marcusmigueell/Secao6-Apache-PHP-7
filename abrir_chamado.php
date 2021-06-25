@@ -1,3 +1,5 @@
+<? require_once "validador_acesso.php"?>
+
 <html>
 
   <head>
@@ -102,5 +104,5 @@
     </div> <!-- Fim Container -->
 
   </body>
-  
+
 </html>
