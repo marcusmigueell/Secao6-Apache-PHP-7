@@ -28,6 +28,12 @@
         App Help Desk
       </a>
 
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="logoff.php" class="nav-link">SAIR</a>
+        </li>
+      </ul>
+
     </nav><!-- Fim Logo -->
 
     <div class="container"> <!-- Inicio Container -->
