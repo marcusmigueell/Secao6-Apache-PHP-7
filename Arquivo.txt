@@ -1,2 +1,4 @@
-1 # Chamado José # Hardware # Teste de chamado do José.
+1 # Chamado ADM # Hardware # Teste de chamado do Adm.
 4 # Chamado Maria # Rede # Teste de chamado do Maria.
+3 # Chamado José # Impressora # Teste de chamado do José.
+2 # Chamado USER # Software # Teste de chamado do USER.
